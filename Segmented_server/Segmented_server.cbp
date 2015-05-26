@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Segmented_server" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Segmented_server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Segmented_server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Client.h" />
+		<Unit filename="include/CommandListener.h" />
+		<Unit filename="include/Demo.h" />
+		<Unit filename="include/DemoManager.h" />
+		<Unit filename="include/EncryptManager.h" />
+		<Unit filename="include/Folder.h" />
+		<Unit filename="include/NetworkManager.h" />
+		<Unit filename="include/Out.h" />
+		<Unit filename="include/XmlManager.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Client.cpp" />
+		<Unit filename="src/CommandListener.cpp" />
+		<Unit filename="src/Demo.cpp" />
+		<Unit filename="src/DemoManager.cpp" />
+		<Unit filename="src/EncryptManager.cpp" />
+		<Unit filename="src/Folder.cpp" />
+		<Unit filename="src/NetworkManager.cpp" />
+		<Unit filename="src/XmlManager.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

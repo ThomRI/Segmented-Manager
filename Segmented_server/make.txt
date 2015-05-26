@@ -1,0 +1,1 @@
+g++ -c -m64 -pipe -O2 -Wall -W -D_REENTRANT -fPIE -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I/usr/share/qt5/mkspecs/linux-g++-64 -I. -I. -Iinclude -I/usr/include/qt5 -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtCore -I. -o main.o main.cpp
