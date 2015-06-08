@@ -14,7 +14,13 @@ ConfigManager::ConfigManager(QString filepath) : m_filepath(filepath)
 
 void ConfigManager::parse()
 {
-
+    /*
+        Data structure :
+        <config>
+            <value name="[value name]">[value content]</value>
+            ...
+        </config>
+    */
 }
 
 ConfigManager::~ConfigManager()
